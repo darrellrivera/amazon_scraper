@@ -1,0 +1,14 @@
+<h1>Item Details</h1>
+
+<table>
+  <th>ID</th>
+  <th>URL</th>
+  <th>Target Price</th>
+  <tr>
+    <td><%= @item.id %></td>
+    <td><%= @item.url %></td>
+    <td><%= @item.target_price %></td>
+  </tr>
+</table>
+
+<%= link_to "Edit Item", edit_item_path(@item) %>
