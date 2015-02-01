@@ -4,4 +4,6 @@
 <%= f.label :target_price %>
 <%= f.text_field :target_price %>
 
+<%= f.hidden_field :user_id, :value => current_user.id %>
+
 <%= f.submit "Create item" %>

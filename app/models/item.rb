@@ -1,7 +1,10 @@
 class Item < ActiveRecord::Base
   validates :url, presence: true
+  validates :user_id, presence: true
 
   before_save :set_target_price
+
+  belongs_to :user
 
   private
 
