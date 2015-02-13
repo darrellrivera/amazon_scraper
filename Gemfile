@@ -15,3 +15,4 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'simplecov', :require => false, :group => :test
 gem 'twitter-bootstrap-rails'
+gem 'whenever', :require => false
